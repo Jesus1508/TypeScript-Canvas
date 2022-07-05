@@ -29,7 +29,7 @@ var posicion = Podium.Italia;
 console.log(posicion);
 //Void es vacio  
 function saludo(palabra) {
-    console.log("" + palabra);
+    console.log("".concat(palabra));
 }
 saludo("buenos dias");
 //Never  
